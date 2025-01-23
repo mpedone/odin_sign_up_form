@@ -140,6 +140,10 @@ input:focus-visible {
     box-shadow: 5px 10px 7px -5px rgba(0, 0, 0, 0.1);
 }
 
+input:invalid {
+    border-color: red;
+}
+
 label {
     text-transform: uppercase;
     font-weight: 400;
