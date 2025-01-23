@@ -130,6 +130,14 @@ input {
     border: 1px solid #E5E7EB;
     /* height: 1.8rem; */
     background-color: #fffefe;
+    padding: 10px;
+    appearance: none;
+}
+
+input:focus-visible {
+    outline: none;
+    border-color: #537895;
+    box-shadow: 5px 10px 7px -5px rgba(0, 0, 0, 0.1);
 }
 
 label {
